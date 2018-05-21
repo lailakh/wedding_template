@@ -255,8 +255,7 @@ header .slider{
 
   @media (max-width:767px) and (min-width:576px) {
 
-    nav ul li a {
-    display: inline-block; }
+  
 
      header {
       background:url(../img/slide5.jpg) no-repeat ; 
@@ -286,8 +285,21 @@ header .slider{
 
  }
 
+
+ nav {
+ font-size: 10px;
+ text-align: left;
+ display: none;
+ position: absolute;
+    z-index: 1000;
+ /*transition: display 2s;
+    -webkit-transition: display 2s; /* Safari 3.1 to 6.0 */
+
+ }
+ 
+
  header .slider{
-  margin: 165px auto;
+  margin: 100px auto;
  
 }
 
@@ -301,6 +313,44 @@ header .slider{
 
 
   }
+
+
+   @media (max-width:991px) and (min-width:768px) {
+
+
+        nav ul li a {
+    display: inline-block; }
+
+     header {
+      background:url(../img/slide5.jpg) no-repeat ; 
+      height: 400px;
+      background-size: cover;
+      font-size: 12px;
+       }
+
+
+ .navbar{
+display: none
+
+
+ }
+   
+  
+
+ header .slider{
+  margin: 165px auto;
+ 
+}
+
+
+.par {
+    width: 161px;
+    height: 35px;
+    font-size: 11px;
+}
+
+
+   }
 
  /*header*/
 
