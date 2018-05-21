@@ -174,23 +174,16 @@ header .slider{
  display: none;
  position: absolute;
     z-index: 1000;
- /*transition: display 2s;
-    -webkit-transition: display 2s; /* Safari 3.1 to 6.0 */
+ 
 
  }
 
-
-
-header .slider{
-  margin: 150px auto;
- 
-}
 
 .par {
 
  
    width: 120px;
-   height:40px;
+   height:30px;
    font-size: 10px;
 
   
@@ -238,7 +231,7 @@ header .slider{
  }
 
  header .slider{
-  margin: 165px auto;
+  margin: 70px auto;
  
 }
 
@@ -369,7 +362,7 @@ header .slider{
 
 
       header .slider{
-        margin: 80px auto; }
+        margin: 120px auto; }
 
 
     .par {
@@ -384,6 +377,42 @@ header .slider{
     }
 
 
+    @media (min-width: 1200px) { /*Large Computer*/
+
+           header {
+      background:url(../img/slide5.jpg) no-repeat ; 
+      height: 400px;
+      background-size: cover;
+     
+       }
+
+
+    header h1 {
+      font-size: 16px;
+    }
+
+       nav ul li {
+       display: inline-block;
+       margin-left: 10px;
+       padding-top: 0px;
+
+        }
+
+      .navbar{
+       display: none}
+
+
+      header .slider{
+        margin: 120px auto; }
+
+
+    .par {
+    width: 180px;
+    height: 35px;
+    font-size: 12px;
+   }
+
+  }
 
  /*header*/
 
@@ -682,6 +711,43 @@ header .slider{
 
 
        }
+
+
+   @media  (min-width:1200px) {  
+
+                  #gallary {
+     font-size: 12px;
+  }
+
+  .gallary  {
+ 
+  margin-left: 5px
+
+}
+
+
+    .Products {
+ 
+  margin-bottom: 10px;
+  
+ 
+
+ }
+ .Products img {
+  width: 100%;
+  
+
+ }
+
+  .center p {
+    padding:  20px;
+
+
+  }
+
+   
+
+   }      
 
 
  /*our client*/
