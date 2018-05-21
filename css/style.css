@@ -257,45 +257,31 @@ header .slider{
 
   
 
-     header {
-      background:url(../img/slide5.jpg) no-repeat ; 
-      height: 400px;
-      background-size: cover;
-      font-size: 12px;
-       }
+   header {
+    background:url(../img/slide5.jpg) no-repeat ; 
+    height: 400px;
+    background-size: cover;
+    font-size: 12px;
+     }
 
 
- .navbar{
-  width:50px;
-  height: 50px;
-  background: transparent;
-  color:#fff;
-  border: 1px solid #fff;
+   .navbar{
+    width:50px;
+    height: 50px;
+    background: transparent;
+    color:#fff;
+    border: 1px solid #fff;
 
 
- }
+   }
    
    nav {
    display: none;
-  position: absolute;
+   position: absolute;
     z-index: 1000;
-    
-     /* transition: display 2s;
-    -webkit-transition: display 2s; /* Safari 3.1 to 6.0 */
-
- }
+  }
 
 
- nav {
- font-size: 10px;
- text-align: left;
- display: none;
- position: absolute;
-    z-index: 1000;
- /*transition: display 2s;
-    -webkit-transition: display 2s; /* Safari 3.1 to 6.0 */
-
- }
  
 
  header .slider{
@@ -310,47 +296,94 @@ header .slider{
     font-size: 11px;
 }
 
-
-
-  }
+ }
 
 
    @media (max-width:991px) and (min-width:768px) {
 
 
-        nav ul li a {
-    display: inline-block; }
+     
 
      header {
       background:url(../img/slide5.jpg) no-repeat ; 
       height: 400px;
       background-size: cover;
-      font-size: 12px;
+     
        }
 
 
- .navbar{
-display: none
+    header h1 {
+      font-size: 14px;
+    }
+
+       nav ul li {
+       display: inline-block;
+       margin-left: 10px;
+       padding-top: 0px;
+
+        }
+
+      .navbar{
+       display: none}
 
 
- }
-   
-  
-
- header .slider{
-  margin: 165px auto;
- 
-}
+      header .slider{
+        margin: 80px auto; }
 
 
-.par {
-    width: 161px;
+    .par {
+    width: 180px;
     height: 35px;
-    font-size: 11px;
-}
+    font-size: 12px;
+   }
+
+
 
 
    }
+
+
+    @media (max-width:1200px) and (min-width:992px) { 
+
+      header {
+      background:url(../img/slide5.jpg) no-repeat ; 
+      height: 400px;
+      background-size: cover;
+     
+       }
+
+
+    header h1 {
+      font-size: 14px;
+    }
+
+       nav ul li {
+       display: inline-block;
+       margin-left: 10px;
+       padding-top: 0px;
+
+        }
+
+      .navbar{
+       display: none}
+
+
+      header .slider{
+        margin: 80px auto; }
+
+
+    .par {
+    width: 180px;
+    height: 35px;
+    font-size: 12px;
+   }
+
+
+
+
+    }
+
+
 
  /*header*/
 
@@ -400,12 +433,26 @@ display: none
 
 }
 
- @media (max-width:575px) and (min-width:421px) {
+ @media (max-width:767px) and (min-width:421px) {
    #about_us{
      font-size: 12px;
   }
 
  }
+
+ @media (max-width:991px) and (min-width:768px) {
+  #about_us{
+     font-size: 14px;
+  }
+
+
+ }
+
+
+
+
+
+
 
 
  /*about us section */
@@ -559,6 +606,43 @@ display: none
 
 
  }
+
+
+   @media (max-width:991px) and (min-width:768px) {
+
+        #gallary {
+     font-size: 12px;
+  }
+
+  .gallary  {
+ 
+  margin-left: 5px
+
+}
+
+
+    .Products {
+ 
+  margin-bottom: 10px;
+  
+ 
+
+ }
+ .Products img {
+  width: 100%;
+  
+
+ }
+
+  .center p {
+    padding:  20px;
+
+
+  }
+
+
+
+   }
 
 
  /*our client*/

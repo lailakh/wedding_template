@@ -127,7 +127,7 @@ body {
 
 }
 
-@media (min-width: 576px) { /*Large Mobile*/
+ @media (max-width:767px) and (min-width:576px) {
   .container {
     width: 576px;
   }
@@ -212,7 +212,7 @@ body {
 
 }
 
-@media (min-width: 768px) { /*Tablet*/
+   @media (max-width:991px) and (min-width:768px) {
   .container {
     width: 768px;
   }
@@ -295,7 +295,7 @@ body {
     margin-left: 8.33333333%;
   }
 }
-@media (min-width: 992px) { /*computer*/
+ @media (max-width:1200px) and (min-width:992px) { /*computer*/
   .container {
     width: 992px;
   }
