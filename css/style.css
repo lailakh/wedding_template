@@ -215,10 +215,7 @@ header .slider{
 
  
 
-  .logo {
-  width:120px;
-  height: 120px;
- }
+ 
 
  .navbar{
   width:50px;
@@ -254,6 +251,56 @@ header .slider{
 
 
  }
+
+
+  @media (max-width:767px) and (min-width:576px) {
+
+    nav ul li a {
+    display: inline-block; }
+
+     header {
+      background:url(../img/slide5.jpg) no-repeat ; 
+      height: 400px;
+      background-size: cover;
+      font-size: 12px;
+       }
+
+
+ .navbar{
+  width:50px;
+  height: 50px;
+  background: transparent;
+  color:#fff;
+  border: 1px solid #fff;
+
+
+ }
+   
+   nav {
+   display: none;
+  position: absolute;
+    z-index: 1000;
+    
+     /* transition: display 2s;
+    -webkit-transition: display 2s; /* Safari 3.1 to 6.0 */
+
+ }
+
+ header .slider{
+  margin: 165px auto;
+ 
+}
+
+
+.par {
+    width: 161px;
+    height: 35px;
+    font-size: 11px;
+}
+
+
+
+  }
 
  /*header*/
 
@@ -424,6 +471,44 @@ header .slider{
 
 
 }
+
+
+ @media (max-width:767px) and (min-width:576px) { 
+
+
+      #gallary {
+     font-size: 12px;
+  }
+
+  .gallary  {
+ 
+  margin-left: 5px
+
+}
+
+
+    .Products {
+ 
+  margin-bottom: 10px;
+  
+ 
+
+ }
+ .Products img {
+  width: 100%;
+  
+
+ }
+
+  .center p {
+    padding:  20px;
+
+
+  }
+
+
+
+ }
 
 
  /*our client*/
