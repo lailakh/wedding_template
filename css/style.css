@@ -1,0 +1,510 @@
+
+
+@font-face {
+    font-family: 'dosis';
+     src: url('../fonts/dosis.medium.ttf'); /* IE9 Compat Modes */
+    }
+ 
+
+
+     @font-face {
+    font-family: 'wedding';
+     src: url('../fonts/BaroqueScript.ttf'); /* IE9 Compat Modes */
+    }      
+
+
+ body{
+       
+  font-family: 'wedding', sans-serif;
+
+    }
+
+ /*general */  
+ .textcenter {
+  text-align: center;
+ }
+ .textred{
+  color:#e86c6c;
+ }
+ .textleft {
+  text-align: left;
+ }
+ .clear {
+  clear: both;
+ }
+
+
+ .cover {
+  background: rgba(0,0,0,.7);
+
+  width: 100%;
+  height: 100%;
+   padding-top: 20px;
+   padding-left: 20px;
+ }
+
+ .textwhite {
+  color: #fff;
+ }
+ 
+ .container {
+  position: relative;
+ }
+ .container::after{
+
+   
+   content: "";
+ background: url(../img/Wedding-Background.png);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+
+ }
+
+ /*end general */ 
+ 
+
+ /*header*/
+ 
+
+ header h1 {
+    color:#fff;
+    font-family: wedding;
+
+
+  }
+
+
+   nav ul {
+  list-style: none;
+   font-family: wedding;
+}
+
+
+nav ul li {
+  padding-top: 5px;
+}
+
+
+ nav ul li a {
+  color:#fff;
+  text-decoration: none;
+ 
+
+ }
+
+  nav ul li a:hover {
+  color: #eee;
+ }
+
+
+
+header .slider{
+  margin: 100px auto;
+ 
+}
+
+#header .slider .flexslider {
+
+   background: transparent;
+   border: 0px;
+   color:#fff;
+
+}
+
+.par {
+
+   background: transparent;
+   border: 1px solid #fff;
+   width: 200px;
+   height:40px;
+   color:#fff;
+   margin-top: 10px;
+    font-family: 'wedding', sans-serif;
+
+}
+
+.size p {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+ @media (max-width: 420px ) {
+
+
+ header {
+  background:url(../img/slide4.jpg) no-repeat ; 
+  height: 375px;
+  background-size: cover;
+  font-size: 10px;
+  
+
+ }
+
+ header h1 { 
+ font-size: 14px;
+ }
+
+  h3 { 
+ font-size: 12px;
+ }
+
+  .logo {
+  width:100px;
+  height: 100px;
+ }
+ .navbar{
+  width:40px;
+  height: 40px;
+  background: transparent;
+  color:#fff;
+  border: 1px solid #fff;
+
+}
+
+
+ nav {
+ font-size: 10px;
+ text-align: left;
+ display: none;
+ position: absolute;
+    z-index: 1000;
+ /*transition: display 2s;
+    -webkit-transition: display 2s; /* Safari 3.1 to 6.0 */
+
+ }
+
+
+
+header .slider{
+  margin: 150px auto;
+ 
+}
+
+.par {
+
+ 
+   width: 120px;
+   height:40px;
+   font-size: 10px;
+
+  
+
+}
+
+
+ }
+
+   @media (max-width:575px) and (min-width:421px) {
+     
+    header {
+      background:url(../img/slide5.jpg) no-repeat ; 
+      height: 400px;
+      background-size: cover;
+      font-size: 12px;
+       }
+
+ header h1 { 
+ font-size: 16px;
+ }
+
+ 
+
+  .logo {
+  width:120px;
+  height: 120px;
+ }
+
+ .navbar{
+  width:50px;
+  height: 50px;
+  background: transparent;
+  color:#fff;
+  border: 1px solid #fff;
+
+
+ }
+   
+   nav {
+   display: none;
+  position: absolute;
+    z-index: 1000;
+    
+     /* transition: display 2s;
+    -webkit-transition: display 2s; /* Safari 3.1 to 6.0 */
+
+ }
+
+ header .slider{
+  margin: 165px auto;
+ 
+}
+
+
+.par {
+    width: 161px;
+    height: 35px;
+    font-size: 11px;
+}
+
+
+ }
+
+ /*header*/
+
+ /*about us section*/
+
+  #about_us{
+     padding: 15px;
+     text-align: left;
+   
+  }
+
+  .center p {
+    padding: 20px  20px 20px 20px;
+
+
+  }
+
+ 
+  .img img{
+  width: 98%;
+ }
+
+ .read_more{
+  width: 160px;
+  height: 45px;
+  background: #e86c6c;
+  border: 1px solid #e86c6c;
+  color:#fff;
+   font-family: wedding;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 20px  20px   50px  20px;
+
+ }
+
+ .read_more:hover {
+
+  background: #f93777;
+ }
+
+
+@media (max-width: 420px ) { 
+  #about_us{
+     font-size: 10px;
+  }
+
+}
+
+ @media (max-width:575px) and (min-width:421px) {
+   #about_us{
+     font-size: 12px;
+  }
+
+ }
+
+
+ /*about us section */
+ /*gallaery*/
+ #gallary{
+  margin-top:20px;
+  padding:15px;
+
+
+ }
+
+ 
+
+
+ .gallary  {
+  position: relative;
+  margin-left: 2px
+
+}
+
+.gallary   .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.gallary:hover .overlay {
+  opacity: .6;
+}
+
+
+@media (max-width: 420px ) {
+
+  #gallary {
+     font-size: 10px;
+  }
+
+ .Products {
+  
+  margin-bottom: 10px;
+
+
+
+ }
+
+ .gallary  {
+ 
+  margin-left: 5px
+
+}
+
+ .Products img {
+  width: 100%;
+ 
+
+ 
+ }
+
+ .center p {
+    padding:  20px;
+
+
+  }
+}
+
+
+  @media (max-width:575px) and (min-width:421px) {
+
+      #gallary {
+     font-size: 12px;
+  }
+
+  .gallary  {
+ 
+  margin-left: 5px
+
+}
+
+
+    .Products {
+ 
+  margin-bottom: 10px;
+  
+ 
+
+ }
+ .Products img {
+  width: 100%;
+  
+
+ }
+
+  .center p {
+    padding:  20px;
+
+
+  }
+
+
+}
+
+
+ /*our client*/
+
+#gallary_view {
+  background: url('../img/dresses-price.jpg');
+  background-size: 100% 100%;
+
+}
+
+ #gallary_view .flexslider  {
+  width : 200px;
+  height: 200px;
+
+  
+  background: transparent;
+  border: 0px;
+  margin:10px auto 0px;
+ }
+
+ .flexslider .slides img {
+
+ }
+
+
+
+ @media (max-width: 420px ) { 
+  #our_client {
+    height:200px;
+  }
+
+ }
+
+ @media (max-width:575px) and (min-width:421px) {
+   #our_client {
+    height:350px;
+  }
+
+ }
+ /*our client */
+ /*footer */
+
+ footer {
+ height: 50px;
+  background: #e86c6c;
+ color: #fff;
+ margin-top: 130px;
+ text-align: center;
+
+ }
+
+.copy {
+  font-family: 'sans-serif'
+
+}
+
+@media (max-width: 420px ) { 
+
+   footer p {
+    font-size: 10px;
+     padding-top: 10px;
+  }
+  
+   footer {
+   
+ height: 40px;}
+
+ }
+
+ @media (max-width:575px) and (min-width:421px) {
+    
+     footer p  {
+    font-size: 12px;
+     padding-top: 10px;
+  }
+
+  footer {
+
+ height: 40px;}
+  
+
+ }
+
+ /*footer */
