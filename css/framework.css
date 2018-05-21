@@ -295,7 +295,7 @@ body {
     margin-left: 8.33333333%;
   }
 }
- @media (max-width:1200px) and (min-width:992px) { /*computer*/
+ @media (max-width:1999px) and (min-width:992px) { /*computer*/
   .container {
     width: 992px;
   }

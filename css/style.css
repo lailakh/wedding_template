@@ -343,7 +343,7 @@ header .slider{
    }
 
 
-    @media (max-width:1200px) and (min-width:992px) { 
+    @media (max-width:1999px) and (min-width:992px) { 
 
       header {
       background:url(../img/slide5.jpg) no-repeat ; 
@@ -643,6 +643,45 @@ header .slider{
 
 
    }
+
+
+       @media (max-width:1999px) and (min-width:992px) {  
+
+
+               #gallary {
+     font-size: 12px;
+  }
+
+  .gallary  {
+ 
+  margin-left: 5px
+
+}
+
+
+    .Products {
+ 
+  margin-bottom: 10px;
+  
+ 
+
+ }
+ .Products img {
+  width: 100%;
+  
+
+ }
+
+  .center p {
+    padding:  20px;
+
+
+  }
+
+
+
+
+       }
 
 
  /*our client*/
